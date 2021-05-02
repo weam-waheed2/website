@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Baloo 2;
+    text-transform: capitalize;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+}
+
+
+
+/* loading page */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.no-js #loader { 
+    display: none;  
+}
+.js #loader { 
+    display: block; position: absolute; left: 100px; top: 0;
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+    z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_3.gif) center no-repeat #fff;
+}
+/* end loading page */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/* btn up */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.button-up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    padding-right: 20px;
+	z-index: 9;
+}
+.btn-up{
+    color: linear-gradient(15deg, #13547a 0%, #80d0c7 50%);
+    opacity: 0.4;
+}
+.btn-up:hover{
+    color: linear-gradient(15deg, #13547a 0%, #80d0c7 50%);
+    opacity: 0.7;
+    transition: 0.8s;
+}
+/* end btn up */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/* start submit */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.btn-dark{
+	border: none;
+	border-radius: 7px;
+	padding: 7px 20px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+}
+.hvr-bounce-to-right::before{
+	border-radius: 7px;
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 70%);
+}
+/* end submit */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/* navbar */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.nav-1{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    box-shadow: 2px 2px 4px rgba(43, 43, 43, 0.349);
+	text-shadow: 2px 2px 4px rgba(43, 43, 43, 0.349);
+}
+.navbar{
+	font-weight: 700;
+}
+.navbar-brand span{
+	color: #b6dcf1;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.795);
+}
+/* end navbar */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/* footer */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.footer1{
+	background-color: #1b1b1b;
+	background-size: cover;
+} 
+.footer1 h3{
+	color: white;
+}
+.contact a{
+	color: black;
+	transform: rotate(360deg);
+}
+.contact i{
+	font-size: 30px;
+	color: rgb(233, 233, 233);
+}
+.contact a i:hover{
+	transform: rotate(360deg);
+    transition: 0.9s;
+}
+.icon-f1{
+	height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    background-color:  #343a40;
+}
+.icon-f1:hover{
+    background-color:  #3b5998;
+	transition: 0.9s;
+}
+.icon-f2{
+	height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    background-color:  #343a40;
+}
+.icon-f2:hover{
+	background-color: #25D366;
+	transition: 0.9s;
+}
+.icon-f3{
+	height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    background-color:  #343a40;
+}
+.icon-f3:hover{
+	background-color: #EA4335;
+	transition: 0.9s;
+}
+
+
+.footer{
+    background-color:#151515;
+    background-size: cover;
+    font-family: molengo;
+}
+.t-f{
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+}
+.icon-f{
+    color:rgb(255, 255, 255) ;
+    font-size: 14px;
+}
+.icon-f-1{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color:  rgba(63, 63, 63, 0.644);
+}
+.icon-f-1 a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+.icon-f-1:hover{
+    height: 2rem;
+    width: 2rem;
+    background-color: #4267b2;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.icon-f-1 a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.icon-f-1 a i:hover{
+	transform: rotate(360deg);
+    transition: 0.9s;
+}
+.icon-f-2{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgba(63, 63, 63, 0.644);
+}
+.icon-f-2 a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+.icon-f-2:hover{
+    height: 2rem;
+    width: 2rem;
+    background-color: #dd4d42;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.icon-f-2 a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.icon-f-2 a i:hover{
+	transform: rotate(360deg);
+    transition: 0.9s;
+}
+.icon-f-3{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color:rgba(63, 63, 63, 0.644);
+}
+.icon-f-3 a{
+    text-decoration: none;
+    color:rgb(167, 167, 167);
+}
+.icon-f-3:hover{
+    height: 2rem;
+    width: 2rem;
+    background-color: #001936;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.icon-f-3 a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.icon-f-3 a i:hover{
+	transform: rotate(360deg);
+    transition: 0.9s;
+}
+.about-p{
+	font-weight: 500;
+	color: rgb(110, 110, 110);
+}
+/* end footer */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
