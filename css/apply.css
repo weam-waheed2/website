@@ -16,7 +16,7 @@ body{
 
 /* loading page */
 /*/////////////////////////////////////////////////////////////////////////////////////*/
-.no-js #loader { 
+/* .no-js #loader { 
     display: none;  
 }
 .js #loader { 
@@ -30,7 +30,7 @@ body{
 	height: 100%;
     z-index: 9999;
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_3.gif) center no-repeat #fff;
-}
+} */
 /* end loading page */
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 
